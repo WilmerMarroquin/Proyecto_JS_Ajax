@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio JavaScript y AJAX</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container">
+    <!-- Sección JavaScript -->
+    <section id="javascript-section">
+        <h2>Ejercicios JavaScript</h2>
+
+        <!-- Palíndromo -->
+        <div class="ejercicio">
+            <h3>1. Detector de Palíndromos</h3>
+            <input type="text" id="palindromo-input" placeholder="Introduce una palabra o frase">
+            <button onclick="verificarPalindromo()">Verificar</button>
+            <p id="palindromo-resultado"></p>
+        </div>
+
+        <!-- Comparador de números -->
+        <div class="ejercicio">
+            <h3>2. Comparador de Números</h3>
+            <input type="number" id="numero1" placeholder="Primer número">
+            <input type="number" id="numero2" placeholder="Segundo número">
+            <button onclick="compararNumeros()">Comparar</button>
+            <p id="numeros-resultado"></p>
+        </div>
+
+        <!-- Detector de vocales -->
+        <div class="ejercicio">
+            <h3>3. Detector de Vocales</h3>
+            <input type="text" id="vocales-input" placeholder="Introduce una frase">
+            <button onclick="encontrarVocales()">Buscar Vocales</button>
+            <p id="vocales-resultado"></p>
+        </div>
+
+        <!-- Contador de vocales -->
+        <div class="ejercicio">
+            <h3>4. Contador de Vocales</h3>
+            <input type="text" id="contador-vocales-input" placeholder="Introduce una frase">
+            <button onclick="contarVocales()">Contar Vocales</button>
+            <div id="contador-vocales-resultado"></div>
+        </div>
+    </section>
+
+    <!-- Sección AJAX -->
+    <section id="ajax-section">
+        <h2>Ejercicios AJAX</h2>
+
+        <div class="ejercicio">
+            <h3>URL a cargar:</h3>
+            <input type="text" id="url-input" placeholder="Introduce URL">
+            <button onclick="cargarContenido()">Mostrar Contenidos</button>
+
+            <div class="resultado-ajax">
+                <h4>Estados de la petición:</h4>
+                <div id="estados"></div>
+
+                <h4>Cabeceras HTTP de la respuesta:</h4>
+                <div id="cabeceras"></div>
+
+                <h4>Código de estado:</h4>
+                <div id="codigo-estado"></div>
+
+                <h4>Contenidos del archivo:</h4>
+                <div id="contenidos"></div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Scripts -->
+<script src="js/palindromo.js"></script>
+<script src="js/numeros.js"></script>
+<script src="js/vocales.js"></script>
+<script src="js/ajax.js"></script>
+</body>
+</html>

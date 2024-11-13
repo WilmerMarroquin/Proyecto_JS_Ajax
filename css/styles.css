@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.ejercicio {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 8px;
+    margin: 5px 0;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.resultado-ajax {
+    margin-top: 20px;
+}
+
+#estados, #cabeceras, #codigo-estado, #contenidos {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    min-height: 50px;
+}
+
+
+/* Añadir estos estilos al final de tu archivo styles.css */
+
+#estados, #cabeceras, #codigo-estado, #contenidos {
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+#estados {
+    background-color: #e8f5e9;
+    border-color: #a5d6a7;
+}
+
+#cabeceras {
+    background-color: #f3e5f5;
+    border-color: #ce93d8;
+}
+
+#codigo-estado {
+    background-color: #e3f2fd;
+    border-color: #90caf9;
+}
+
+#contenidos {
+    background-color: #fff3e0;
+    border-color: #ffcc80;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.ejemplos-urls h4 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
